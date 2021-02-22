@@ -60,15 +60,23 @@ color: blue;
   background-color: gold;
 }
 
-
-
-.thead{
-  background-color: blue;
-  color: white;
+.tavela{
+  border-collapse: collapse;
 }
 
-.tmain{
-  background-color: aqua;
+th{
+  background-color: #20A9E5;
+  color: white;
+  text-align: left;
+}
+ 
+th:nth-child(3){
+   width: 50%;
+ }
+
+tr:nth-child(odd){
+  background-color: lightskyblue;
+
 }
 
 footer{
